@@ -117,6 +117,18 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Python-maxsize">Python maxsize<a class="anchor-link" href="#Python-maxsize"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="maxsize-conversion-to-bytes">maxsize conversion to bytes<a class="anchor-link" href="#maxsize-conversion-to-bytes"> </a></h3>
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -129,7 +141,7 @@ window.onload = wrap_img;
 <span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">hex</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">))</span>
 
-<span class="n">number_of_bytes</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">number_of_bytes</span> <span class="o">=</span> <span class="mi">4</span>
 
 <span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span><span class="p">)</span><span class="o">.</span><span class="n">to_bytes</span><span class="p">(</span><span class="n">number_of_bytes</span><span class="p">,</span> <span class="s1">&#39;big&#39;</span><span class="p">)</span>
 </pre></div>
@@ -152,12 +164,17 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">OverflowError</span>                             Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-3-803655c492d3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">      6</span> number_of_bytes <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-cyan-intense-fg ansi-bold">4</span>
+<span class="ansi-green-fg">      7</span> 
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-yellow-intense-fg ansi-bold">(</span>sys<span class="ansi-yellow-intense-fg ansi-bold">.</span>maxsize<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>to_bytes<span class="ansi-yellow-intense-fg ansi-bold">(</span>number_of_bytes<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;big&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
-
-<div class="output_text output_subarea output_execute_result">
-<pre>b&#39;\x7f\xff\xff\xff\xff\xff\xff\xff&#39;</pre>
+<span class="ansi-red-intense-fg ansi-bold">OverflowError</span>: int too big to convert</pre>
 </div>
-
 </div>
 
 </div>
