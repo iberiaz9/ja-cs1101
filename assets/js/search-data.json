@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "Python maxsize . maxsize conversion to bytes . import sys print(sys.maxsize) print(hex(sys.maxsize)) number_of_bytes = 4 (sys.maxsize).to_bytes(number_of_bytes, &#39;big&#39;) . 9223372036854775807 0x7fffffffffffffff . OverflowError Traceback (most recent call last) &lt;ipython-input-3-803655c492d3&gt; in &lt;module&gt; 6 number_of_bytes = 4 7 -&gt; 8 (sys.maxsize).to_bytes(number_of_bytes, &#39;big&#39;) OverflowError: int too big to convert . What is the smallest value for number_of_bytes to avoid the error? . And, what does the answer tell you about your computer system? .",
+            "title": "Python maxsize",
+            "content": "maxsize conversion to bytes . import sys print(sys.maxsize) print(hex(sys.maxsize)) number_of_bytes = 4 (sys.maxsize).to_bytes(number_of_bytes, &#39;big&#39;) . 9223372036854775807 0x7fffffffffffffff . OverflowError Traceback (most recent call last) &lt;ipython-input-3-803655c492d3&gt; in &lt;module&gt; 6 number_of_bytes = 4 7 -&gt; 8 (sys.maxsize).to_bytes(number_of_bytes, &#39;big&#39;) OverflowError: int too big to convert . What is the smallest value for number_of_bytes to avoid the error? . And, what does the answer tell you about your computer system? .",
             "url": "https://iberiaz9.github.io/ja-cs1101/2020/10/25/exp3.html",
             "relUrl": "/2020/10/25/exp3.html",
             "date": " • Oct 25, 2020"
