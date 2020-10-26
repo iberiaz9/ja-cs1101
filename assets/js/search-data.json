@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Using Python as calculator",
-            "content": "Exercise from our textbook . &gt;&gt;&gt; 42 * 60 + 42 . 2562 . &gt;&gt;&gt; 10 / 1.61 . 6.211180124223602 . # what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour? # calculate seconds per mile ((42 * 60) + 42) / (10 / 1.61) . 412.482 . &gt;&gt;&gt; # calculate minutes ... 412 / 60 . 6.866666666666666 . &gt;&gt;&gt; # calculate seconds left over ... 412 % 60 . 52 . &gt;&gt;&gt; # so average pace is 6 minutes and 52.482 seconds per mile, verify answer by converting to seconds per mile ... 6 * 60 + 52.482 . 412.48199999999997 . &gt;&gt;&gt; # average speed in miles per hour ... 3600 / 412.482 . 8.727653570337614 .",
+            "content": "Exercise from our textbook . &gt;&gt;&gt; 42 * 60 + 42 . &gt;&gt;&gt; 10 / 1.61 . # what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour? # calculate seconds per mile ((42 * 60) + 42) / (10 / 1.61) . &gt;&gt;&gt; # calculate minutes ... 412 / 60 . &gt;&gt;&gt; # calculate seconds left over ... 412 % 60 . &gt;&gt;&gt; # so average pace is 6 minutes and 52.482 seconds per mile, verify answer by converting to seconds per mile ... 6 * 60 + 52.482 . &gt;&gt;&gt; # average speed in miles per hour ... 3600 / 412.482 .",
             "url": "https://iberiaz9.github.io/ja-cs1101/2020/10/26/exp2.html",
             "relUrl": "/2020/10/26/exp2.html",
             "date": " • Oct 26, 2020"
